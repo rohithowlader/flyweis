@@ -1,0 +1,38 @@
+{
+  "name": "flyweis",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rohithowlader/flyweis#readme",
+  "bugs": {
+    "url": "https://github.com/rohithowlader/flyweis/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohithowlader/flyweis.git"
+  },
+  "license": "ISC",
+  "author": "Rohit Howlader",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.8.2",
+    "luxon": "^3.7.2",
+    "morgan": "^1.10.1",
+    "redis": "^5.10.0",
+    "socket.io": "^4.8.3",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
